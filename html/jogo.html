@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciência+ | Jogo da Memória</title>
+  <link rel="stylesheet" href="../css/jogo.css">
+</head>
+<body>
+  <div class="game-page">
+    <header class="game-header">
+      <a class="brand" href="index.html" aria-label="Voltar para o início">
+        <span class="mini-atom">⚛</span>
+        <span>Ciência<span>+</span></span>
+      </a>
+      <div class="header-right">
+        <span class="difficulty-badge" id="difficultyBadge">Fácil</span>
+        <a class="home-btn" href="index.html"><span>⌂</span> Início</a>
+      </div>
+    </header>
+
+    <main class="game-main">
+      <section class="status-bar">
+        <div class="status-item">
+          <span class="status-icon">★</span>
+          <div><small>Pontuação</small><strong id="score">120</strong></div>
+        </div>
+        <div class="status-item">
+          <span class="status-icon">◎</span>
+          <div><small>Tentativas</small><strong id="attempts">0</strong></div>
+        </div>
+        <div class="status-item">
+          <span class="status-icon">◷</span>
+          <div><small>Tempo</small><strong id="timer">00:00</strong></div>
+        </div>
+        <div class="status-item pairs-status">
+          <span class="status-icon">✓</span>
+          <div><small>Pares</small><strong id="pairsFound">0 / 6</strong></div>
+        </div>
+        <button class="restart-btn" id="restartBtn"><span>↻</span> Reiniciar</button>
+      </section>
+
+      <p class="instruction">Encontre os pares e responda uma pergunta científica a cada acerto!</p>
+      <section class="board" id="board" aria-label="Tabuleiro do jogo da memória"></section>
+    </main>
+
+    <div class="pair-modal" id="pairModal" aria-hidden="true">
+      <div class="pair-card">
+        <button class="close" id="closePair" aria-label="Fechar">×</button>
+        <div class="pair-top">
+          <div class="pair-icon" id="pairIcon">🧬</div>
+          <div class="pair-content">
+            <span class="pair-label">PAR ENCONTRADO!</span>
+            <h2 id="pairName">DNA</h2>
+            <p id="pairDescription"></p>
+          </div>
+        </div>
+
+        <div class="question-box">
+          <div class="question-title">💡 Quiz do par</div>
+          <p id="pairQuestion"></p>
+          <div class="question-options" id="questionOptions"></div>
+          <p class="question-feedback" id="questionFeedback" aria-live="polite"></p>
+        </div>
+
+        <div class="curiosity">
+          <div class="bulb">✦</div>
+          <div>
+            <strong>Curiosidade:</strong>
+            <p id="pairCuriosity"></p>
+          </div>
+        </div>
+        <button class="continue-btn" id="continueBtn" disabled>Responder para continuar</button>
+      </div>
+    </div>
+
+    <footer class="game-footer">
+      <span class="footer-logo">⚛</span>
+      <span>Pequenas descobertas, grandes conhecimentos!</span>
+      <span class="molecule">✣</span>
+    </footer>
+  </div>
+
+  <script src="../js/jogo.js"></script>
+</body>
+</html>

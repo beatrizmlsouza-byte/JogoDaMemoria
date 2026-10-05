@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nome": "DNA",
+    "icone": "🧬",
+    "descricao": "O DNA guarda as informações genéticas dos seres vivos.",
+    "curiosidade": "O DNA é uma molécula presente em praticamente todas as formas de vida.",
+    "pergunta": "Qual molécula armazena as informações genéticas?",
+    "opcoes": ["DNA", "Glicose", "Água"],
+    "resposta": "DNA"
+  },
+  {
+    "id": 2,
+    "nome": "Bactéria",
+    "icone": "🦠",
+    "descricao": "Bactérias são organismos microscópicos, geralmente unicelulares.",
+    "curiosidade": "Algumas bactérias são úteis para a produção de alimentos e medicamentos.",
+    "pergunta": "Como é classificada a maioria das bactérias?",
+    "opcoes": ["Organismos unicelulares", "Planetas", "Minerais"],
+    "resposta": "Organismos unicelulares"
+  },
+  {
+    "id": 3,
+    "nome": "Vírus",
+    "icone": "🔬",
+    "descricao": "Vírus são estruturas microscópicas que precisam de uma célula hospedeira para se multiplicar.",
+    "curiosidade": "Existem vírus que infectam animais, plantas e até bactérias.",
+    "pergunta": "O que o vírus precisa para se multiplicar?",
+    "opcoes": ["Uma célula hospedeira", "Apenas água", "Luz solar direta"],
+    "resposta": "Uma célula hospedeira"
+  },
+  {
+    "id": 4,
+    "nome": "Fotossíntese",
+    "icone": "🌿",
+    "descricao": "Na fotossíntese, plantas usam luz para produzir matéria orgânica.",
+    "curiosidade": "Durante a fotossíntese, as plantas liberam oxigênio para o ambiente.",
+    "pergunta": "Qual fonte de energia é essencial para a fotossíntese?",
+    "opcoes": ["Luz", "Som", "Magnetismo"],
+    "resposta": "Luz"
+  },
+  {
+    "id": 5,
+    "nome": "Átomo",
+    "icone": "⚛️",
+    "descricao": "O átomo é uma unidade fundamental da matéria.",
+    "curiosidade": "A matéria ao nosso redor é formada por átomos de diferentes elementos.",
+    "pergunta": "O que os átomos formam quando se combinam?",
+    "opcoes": ["A matéria", "Somente luz", "Somente calor"],
+    "resposta": "A matéria"
+  },
+  {
+    "id": 6,
+    "nome": "Gravidade",
+    "icone": "🌎",
+    "descricao": "A gravidade é uma interação que atrai corpos com massa.",
+    "curiosidade": "A gravidade da Lua é menor que a da Terra, por isso o peso aparente é diferente.",
+    "pergunta": "O que a gravidade faz entre corpos com massa?",
+    "opcoes": ["Atrai os corpos", "Apaga a matéria", "Produz apenas luz"],
+    "resposta": "Atrai os corpos"
+  }
+]

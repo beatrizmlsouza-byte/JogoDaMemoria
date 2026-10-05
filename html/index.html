@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciência+ | Jogo da Memória</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <div class="brand">
+        <div class="atom-logo" aria-hidden="true">
+          <span class="nucleus"></span>
+          <span class="orbit orbit-1"></span>
+          <span class="orbit orbit-2"></span>
+          <span class="orbit orbit-3"></span>
+        </div>
+        <span>Ciência<span class="plus">+</span></span>
+      </div>
+      <div class="header-title">Jogo da Memória</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="science-illustration" aria-hidden="true">
+          <div class="dna">⌁</div>
+          <div class="atom-big">
+            <span class="nucleus"></span>
+            <span class="orbit orbit-1"></span>
+            <span class="orbit orbit-2"></span>
+            <span class="orbit orbit-3"></span>
+          </div>
+          <div class="flask">
+            <span></span>
+          </div>
+          <i class="dot dot-1"></i>
+          <i class="dot dot-2"></i>
+          <i class="dot dot-3"></i>
+          <i class="dot dot-4"></i>
+        </div>
+
+        <h1>Jogo da Memória</h1>
+        <p class="subtitle">
+          Teste seus conhecimentos sobre o mundo da ciência<br class="desktop">
+          e divirta-se encontrando os pares!
+        </p>
+
+        <div class="main-buttons">
+          <button class="btn btn-primary" id="playBtn">
+            <span class="play-icon">▶</span>
+            Jogar
+          </button>
+
+          <button class="btn btn-secondary" id="howBtn">
+            <span class="book-icon">▣</span>
+            Como jogar
+          </button>
+        </div>
+
+        <div class="difficulty">
+          <h2>Escolha a dificuldade</h2>
+          <div class="difficulty-options">
+            <button class="difficulty-btn active" data-difficulty="facil">Fácil</button>
+            <button class="difficulty-btn" data-difficulty="medio">Médio</button>
+            <button class="difficulty-btn" data-difficulty="dificil">Difícil</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights">
+        <div class="highlight">
+          <div class="highlight-icon">🧠</div>
+          <strong>6 pares</strong>
+          <span>de cartas</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="highlight">
+          <div class="highlight-icon">♜</div>
+          <strong>Pontuação</strong>
+          <span>e tempo</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="highlight">
+          <div class="highlight-icon">☆</div>
+          <strong>Curiosidades</strong>
+          <span>e quizzes</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="highlight">
+          <div class="highlight-icon">▯</div>
+          <strong>Totalmente</strong>
+          <span>responsivo</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Ciência+ &nbsp;•&nbsp; Aprender também é divertido!</span>
+      <div class="footer-atom" aria-hidden="true">
+        <span class="nucleus"></span>
+        <span class="orbit orbit-1"></span>
+        <span class="orbit orbit-2"></span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal" id="howModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal" aria-label="Fechar">×</button>
+      <h2>Como jogar?</h2>
+      <ol>
+        <li>Escolha o nível de dificuldade.</li>
+        <li>Vire duas cartas para encontrar um par.</li>
+        <li>Combine todas as cartas para completar o jogo.</li>
+        <li>Ao acertar, você poderá descobrir uma curiosidade científica.</li>
+      </ol>
+      <button class="btn btn-primary modal-ok" id="modalOk">Entendi</button>
+    </div>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

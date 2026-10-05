@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciência+ | Resultado</title>
+  <link rel="stylesheet" href="../css/resultado.css">
+</head>
+<body>
+  <div class="result-page">
+    <header class="result-header">
+      <a href="index.html" class="brand" aria-label="Voltar ao início">
+        <span class="atom">⚛</span>
+        <span>Ciência<span class="plus">+</span></span>
+      </a>
+      <a href="index.html" class="home-btn"><span>⌂</span> Início</a>
+    </header>
+
+    <main class="result-main">
+      <section class="victory">
+        <div class="trophy">♜</div>
+        <h1>Parabéns!</h1>
+        <h2>Você encontrou todos os 6 pares!</h2>
+        <p>Seu conhecimento sobre a ciência está incrível!</p>
+      </section>
+
+      <section class="stats">
+        <div class="stat">
+          <span class="stat-icon">☆</span>
+          <span class="label">Pontuação</span>
+          <strong id="resultScore">820</strong>
+        </div>
+        <div class="separator"></div>
+        <div class="stat">
+          <span class="stat-icon">⊙</span>
+          <span class="label">Tentativas</span>
+          <strong id="resultAttempts">14</strong>
+        </div>
+        <div class="separator"></div>
+        <div class="stat">
+          <span class="stat-icon">◷</span>
+          <span class="label">Tempo</span>
+          <strong id="resultTime">02:31</strong>
+        </div>
+        <div class="separator"></div>
+        <div class="stat">
+          <span class="stat-icon">✓</span>
+          <span class="label">Pares encontrados</span>
+          <strong>6 / 6</strong>
+        </div>
+      </section>
+
+      <section class="bonus">
+        <h3>Você desbloqueou uma curiosidade extra!</h3>
+
+        <div class="fact-card">
+          <div class="fact-icon" id="factIcon">🧬</div>
+          <div>
+            <h4 id="factName">DNA</h4>
+            <p id="factDescription">
+              O DNA guarda as informações genéticas dos seres vivos.
+            </p>
+          </div>
+        </div>
+
+        <div class="quiz">
+          <div class="quiz-title">
+            <span class="bulb">♧</span>
+            <div>
+              <strong>Quiz bônus</strong>
+              <p>Qual molécula contém as informações genéticas?</p>
+            </div>
+          </div>
+
+          <div class="answers">
+            <button class="answer correct" data-answer="DNA">A) DNA</button>
+            <button class="answer" data-answer="Glicose">B) Glicose</button>
+            <button class="answer" data-answer="Água">C) Água</button>
+          </div>
+
+          <p class="quiz-feedback" id="quizFeedback"></p>
+        </div>
+      </section>
+
+      <section class="actions">
+        <button class="action-primary" id="playAgain">
+          <span>↻</span> Jogar novamente
+        </button>
+        <a href="index.html" class="action-secondary">
+          <span>⌂</span> Voltar ao início
+        </a>
+      </section>
+    </main>
+
+    <footer class="result-footer">
+      <span class="footer-atom">⚛</span>
+      <span>Ciência+ &nbsp;•&nbsp; Aprender também é divertido!</span>
+      <span class="footer-icons">♧ &nbsp;⌘</span>
+    </footer>
+  </div>
+
+  <script src="../js/resultado.js"></script>
+</body>
+</html>
